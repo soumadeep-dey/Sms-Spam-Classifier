@@ -4,6 +4,7 @@ from nltk.corpus import stopwords
 import string
 import nltk
 nltk.download('punkt')
+nltk.download('stopwords')
 from nltk.stem.porter import PorterStemmer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import accuracy_score, precision_score
